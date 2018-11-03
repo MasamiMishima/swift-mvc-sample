@@ -28,7 +28,13 @@ class ArticleData {
     
     init() {
         articleModel = ArticlesDataModel(
-            article: [ArticleDataModel(id: 1, title: "test", image: nil)]
+            article: [
+                ArticleDataModel(id: 1, title: "test", image: nil),
+                ArticleDataModel(id: 1, title: "test", image: nil),
+                ArticleDataModel(id: 1, title: "test", image: nil),
+                ArticleDataModel(id: 1, title: "test", image: nil),
+                ArticleDataModel(id: 1, title: "test", image: nil),
+            ]
         )
     }
 }
